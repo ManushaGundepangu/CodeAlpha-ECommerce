@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Order Successful - ShopEase</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .success-box {
+            background: white;
+            padding: 50px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+            max-width: 500px;
+        }
+
+        .success-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .order-number {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #111;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="success-box">
+
+    <div class="success-icon">🎉</div>
+
+    <h1>Order Placed Successfully!</h1>
+
+    <p>Thank you for shopping with ShopEase.</p>
+
+    <div class="order-number">
+        Order #{{ order.id }}
+    </div>
+
+    <p>
+        Total Amount:
+        <strong>₹{{ order.total_amount }}</strong>
+    </p>
+
+    <a href="{% url 'home' %}">
+        Continue Shopping
+    </a>
+
+</div>
+
+</body>
+</html>
