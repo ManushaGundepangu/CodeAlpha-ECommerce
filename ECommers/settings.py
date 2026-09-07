@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'codealpha_ecommerce',
         'USER': 'root',
-        'PASSWORD': 'manusha6305248693',
+        'PASSWORD':  os.environ.get('DB_PASSWORD'),
         'HOST': 'localhost',
         'PORT': '3306',
     }
