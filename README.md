@@ -1,21 +1,30 @@
-# 🛍️ ShopEase - E-Commerce Website
+# CodeAlpha - Simple E-Commerce Store
 
-A full-stack e-commerce web application developed using Django and MySQL.
+## Internship
 
-## 📌 Project Overview
+CodeAlpha Full Stack Development Internship
 
-ShopEase is an online shopping platform where users can browse products,
-search for products, explore categories, add products to their cart,
-manage their wishlist, place orders, and submit product reviews and ratings.
+## Task
 
-## ✨ Features
+Task 1 - Simple E-Commerce Store
+
+## Project Description
+
+ShopEase is a full-stack e-commerce web application developed using
+Django and MySQL.
+
+The application allows users to browse products, search for products,
+explore categories, view product details, manage their shopping cart,
+add products to a wishlist, place orders, and submit product reviews
+and ratings.
+
+## Features
 
 - User Registration and Login
-- User Logout
 - Product Listing
-- Product Details
 - Product Search
 - Category-wise Products
+- Product Details
 - Add to Cart
 - Update Cart Quantity
 - Remove from Cart
@@ -23,60 +32,55 @@ manage their wishlist, place orders, and submit product reviews and ratings.
 - Checkout
 - Order Placement
 - My Orders
-- Product Reviews
-- Product Ratings
+- Product Reviews and Ratings
 - Django Admin Panel
 - MySQL Database
 - Responsive User Interface
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
+
 - HTML5
 - CSS3
 - JavaScript
 - Bootstrap
 
 ### Backend
+
 - Python
 - Django
 
 ### Database
+
 - MySQL
 
-### Development Tools
+### Tools
+
 - Visual Studio Code
 - Git
 - GitHub
 
-## 🏗️ Project Structure
+## Database Models
 
-```text
-ECommers/
-│
-├── ECommers/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-│
-├── store/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── admin.py
-│   └── migrations/
-│
-├── templates/
-│   ├── home.html
-│   ├── product_detail.html
-│   ├── category_products.html
-│   ├── cart.html
-│   ├── checkout.html
-│   ├── wishlist.html
-│   ├── my_orders.html
-│   ├── login.html
-│   └── register.html
-│
-├── media/
-├── manage.py
-└── README.md
+- Product
+- Category
+- CartItem
+- Wishlist
+- Order
+- OrderItem
+- Review
+
+## Internship Information
+
+**Organization:** CodeAlpha
+
+**Program:** Full Stack Development Internship
+
+**Task:** Task 1 - Simple E-Commerce Store
+
+## Purpose
+
+This project was developed as part of the CodeAlpha Full Stack
+Development Internship to demonstrate practical full-stack web
+development skills.
